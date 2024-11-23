@@ -7,7 +7,56 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Sign up</h1>
+    <div class="sidebar">
+
+    </div>
+    <div class="container-1">
+        This is not a real online service! You know you need something
+        like this in your life to help you relaize your deepest dreams.
+        Sign up now to get started.
+    </br>
+    </br>
+        You Know you want to.
+    </div>
+
+    <div class="container-2">
+    <form method="post">
+        <h1>Lets do this!</h1>
+        <fieldset> 
+            <label for="first_name">FIRST NAME</label>
+            <label for="last_name">LAST NAME</label>
+        </fieldset>
+
+        <fieldset>
+            <input type="text" id="first_name" >
+            <input type="text" id="last_name" >
+        </fieldset>
+
+        <fieldset>
+            <label for="email">EMAIL</label>
+            <label for="phone_number" id="phone-label">PHONE NUMBER</label>
+        </fieldset>
+
+        <fieldset>
+            <input type="email" id="email" name="email" >
+            <input type="text" id="phone_number" maxlength="10" >
+        </fieldset>
+        <fieldset>
+            <label for="passsword">PASSWORD</label>
+            <label for="confirm_password">CONFIRM PASSWORD</label>
+
+        </fieldset>
+        <fieldset>
+            <input type="password" id="password" maxlength="15" required>
+            <input type="password" id="confirm_password" maxlength="15" required>
+        </fieldset>
+
+    </form>
+</div>
+<div class="container-3">
+    <button type="submit">Create Account</button>
+    <p>Already have an account? Log in</p>
+</div>
 
     <script src="script.js"></script>
 </body>
